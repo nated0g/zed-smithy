@@ -1,10 +1,14 @@
 name = "Smithy"
-version = "0.0.2"
+version = "0.0.3"
 authors = ["Josh Rutkowski <joshrutk@amazon.com>"]
 description = "Smithy language support for Zed"
 repository = "https://github.com/joshrutkowski/zed-smithy"
 id = "smithy"
 schema_version = 1
+
+[language_servers.smithy]
+name = "Smithy Language Server"
+language = "Smithy"
 
 [grammars.smithy]
 repository = "https://github.com/indoorvivants/tree-sitter-smithy"
