@@ -1,4 +1,5 @@
 (structure_statement "structure" @context (identifier) @name) @item
+(union_statement "union" @context (identifier) @name) @item
 (list_statement "list" @context (identifier) @name) @item
 (enum_statement "enum" @context (identifier) @name) @item
 (operation_statement "operation" @context (identifier) @name) @item
