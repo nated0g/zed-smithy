@@ -1,0 +1,18 @@
+id = "smithy"
+name = "Smithy"
+version = "0.1.0"
+schema_version = 1
+authors = [
+    "Josh Rutkowski <joshrutk@amazon.com>",
+    "Nate Usher <nathaniel.usher@stedi.com>",
+]
+description = "Smithy language support for Zed with Language Server integration"
+repository = "https://github.com/joshrutkowski/zed-smithy"
+
+[language_servers.smithy-language-server]
+name = "smithy-language-server"
+languages = ["Smithy"]
+
+[grammars.smithy]
+repository = "https://github.com/indoorvivants/tree-sitter-smithy"
+commit = "8327eb84d55639ffbe08c9dc82da7fff72a1ad07"
